@@ -19,6 +19,207 @@ body{
 	}
 #box6{
 	width: 100%;
+	// background: #f1f1f1;
+	.slide-cong{
+		width: 100%;
+		height: 450px;
+		background-size: cover;
+		background-image: url(../img/c0.jpg);
+		float: left;
+		.cong00{
+		float: left;
+		width: 50%;
+		height: 100px;
+		// background: #f1f1f1;
+		margin-left: 25%;
+		
+		h1{
+			color: white;
+			padding-left: 35%;
+			padding-top: 2%;
+		}
+		.cong010{
+			float: left;
+			width: 10%;
+			height: 5%;
+			background: lightblue;
+			margin-left: 45%;
+		}
+		.cong020{
+			float: left;
+			width: 30%;
+			height: 2%;
+			background: grey;
+			margin-left: 35%;
+		}
+		
+		
+		}
+		.congc{
+			float: left;
+			width: 100%;
+			height:70%;
+		
+			.span12{
+				float: left;
+				width: 100%;
+				.well{
+					float: left;
+					width: 100%;
+					#myCarousel{
+						width: 100%;
+						height: 100%;
+						float: left;
+						
+							.span3{
+								float: left;
+								margin-left: 65px;
+							}
+						a.left{
+							width: 2%;
+							height: 10%;
+							// background: red;
+							position: absolute;
+							top: 45%;
+							left: 2%;
+						}
+						a.right{
+							width: 2%;
+							height: 10%;
+							// background: red;
+							position: absolute;
+							top: 45%;
+							right: 5%;
+						}
+					}
+				}
+			}
+			
+
+		}
+	}
+	.cong0{
+		float: left;
+		width: 100%;
+		height: 100px;
+		background: #f1f1f1;
+		
+		h1{
+			color: black;
+			padding-left: 35%;
+			padding-top: 2%;
+		}
+		.cong01{
+			float: left;
+			width: 15%;
+			height: 5%;
+			background: lightblue;
+			margin-left: 40%;
+		}
+		.cong02{
+			float: left;
+			width: 27%;
+			height: 2%;
+			background: grey;
+			margin-left: 35%;
+		}
+		
+		
+	}
+	.card{
+		float: left;
+		margin-left: 3%;
+		border: solid 1px grey;
+		position: relative;
+		background: #f1f1f1;
+		img{
+			width: 100%;
+			height: 260px;
+
+		}
+		h2{
+			color: blue;
+			a{
+				color:blue;
+				text-decoration: none;
+				font-size: 17pt;
+			}
+		}
+		
+		.cong11{
+			float: left;
+			// background: red;
+			   width: 287px;
+    		height: 30px;
+
+    		.cong11a{
+    			float: left;
+    			width: 50%;
+    			height: 100%;
+    			// background: pink;
+    			border-top: solid 1px grey;
+    			border-right: solid 1px grey;
+    			i{
+    				float: left;
+    				width: 50%;
+    				height: 100%;
+    				// background: green;
+    				font-size: 150%;
+    				padding-top: 2%;
+    				padding-left: 30%;
+    				color: blue;
+    			}
+    			p{
+    				float: left;
+    				width: 50%;
+    				height: 100%;
+    				// background: purple;
+    				padding-left: 5%;
+    				padding-top:2%;
+
+    			}
+
+    		}
+		}
+		.cong12{
+			// background: pink;
+			width: 60%;
+			height: 10%;
+			// background: red;
+			position: absolute;
+			i{
+				float: left;
+				width: 25%;
+				height: 100%;
+				// background: green;
+				padding: 2% 6%;
+				font-size: 150%;
+				color: blue;
+
+			}
+		}
+	}
+		.cong13{
+			float: left;
+			width: 35%;
+			height: 25%;
+			background:#198186;
+			position: absolute;
+			top: 5%;
+			right: 5%;
+			border-radius: 50%;
+			p{
+				float: left;
+				margin-top: 22%;
+				margin-left: 15%;
+				color: white;
+
+			}
+
+		}
+
+		
+	
 	}
 #box7{
 	width: 100%;

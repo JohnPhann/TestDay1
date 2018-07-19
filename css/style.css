@@ -19,6 +19,147 @@ body {
 
 #box6 {
   width: 100%; }
+  #box6 .slide-cong {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-image: url(../img/c0.jpg);
+    float: left; }
+    #box6 .slide-cong .cong00 {
+      float: left;
+      width: 50%;
+      height: 100px;
+      margin-left: 25%; }
+      #box6 .slide-cong .cong00 h1 {
+        color: white;
+        padding-left: 35%;
+        padding-top: 2%; }
+      #box6 .slide-cong .cong00 .cong010 {
+        float: left;
+        width: 10%;
+        height: 5%;
+        background: lightblue;
+        margin-left: 45%; }
+      #box6 .slide-cong .cong00 .cong020 {
+        float: left;
+        width: 30%;
+        height: 2%;
+        background: grey;
+        margin-left: 35%; }
+    #box6 .slide-cong .congc {
+      float: left;
+      width: 100%;
+      height: 70%; }
+      #box6 .slide-cong .congc .span12 {
+        float: left;
+        width: 100%; }
+        #box6 .slide-cong .congc .span12 .well {
+          float: left;
+          width: 100%; }
+          #box6 .slide-cong .congc .span12 .well #myCarousel {
+            width: 100%;
+            height: 100%;
+            float: left; }
+            #box6 .slide-cong .congc .span12 .well #myCarousel .span3 {
+              float: left;
+              margin-left: 65px; }
+            #box6 .slide-cong .congc .span12 .well #myCarousel a.left {
+              width: 2%;
+              height: 10%;
+              position: absolute;
+              top: 45%;
+              left: 2%; }
+            #box6 .slide-cong .congc .span12 .well #myCarousel a.right {
+              width: 2%;
+              height: 10%;
+              position: absolute;
+              top: 45%;
+              right: 5%; }
+  #box6 .cong0 {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background: #f1f1f1; }
+    #box6 .cong0 h1 {
+      color: black;
+      padding-left: 35%;
+      padding-top: 2%; }
+    #box6 .cong0 .cong01 {
+      float: left;
+      width: 15%;
+      height: 5%;
+      background: lightblue;
+      margin-left: 40%; }
+    #box6 .cong0 .cong02 {
+      float: left;
+      width: 27%;
+      height: 2%;
+      background: grey;
+      margin-left: 35%; }
+  #box6 .card {
+    float: left;
+    margin-left: 3%;
+    border: solid 1px grey;
+    position: relative;
+    background: #f1f1f1; }
+    #box6 .card img {
+      width: 100%;
+      height: 260px; }
+    #box6 .card h2 {
+      color: blue; }
+      #box6 .card h2 a {
+        color: blue;
+        text-decoration: none;
+        font-size: 17pt; }
+    #box6 .card .cong11 {
+      float: left;
+      width: 287px;
+      height: 30px; }
+      #box6 .card .cong11 .cong11a {
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-top: solid 1px grey;
+        border-right: solid 1px grey; }
+        #box6 .card .cong11 .cong11a i {
+          float: left;
+          width: 50%;
+          height: 100%;
+          font-size: 150%;
+          padding-top: 2%;
+          padding-left: 30%;
+          color: blue; }
+        #box6 .card .cong11 .cong11a p {
+          float: left;
+          width: 50%;
+          height: 100%;
+          padding-left: 5%;
+          padding-top: 2%; }
+    #box6 .card .cong12 {
+      width: 60%;
+      height: 10%;
+      position: absolute; }
+      #box6 .card .cong12 i {
+        float: left;
+        width: 25%;
+        height: 100%;
+        padding: 2% 6%;
+        font-size: 150%;
+        color: blue; }
+  #box6 .cong13 {
+    float: left;
+    width: 35%;
+    height: 25%;
+    background: #198186;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border-radius: 50%; }
+    #box6 .cong13 p {
+      float: left;
+      margin-top: 22%;
+      margin-left: 15%;
+      color: white; }
 
 #box7 {
   width: 100%; }
