@@ -7,6 +7,84 @@ body {
 
 #box2 {
   width: 100%; }
+  #box2 .slider {
+    float: left; }
+    #box2 .slider .dat1 {
+      text-align: center;
+      padding-bottom: 10%; }
+      #box2 .slider .dat1 h1 {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 5% 0;
+        margin: 0 auto;
+        text-transform: capitalize; }
+      #box2 .slider .dat1 p {
+        margin: 0 0 2%;
+        padding: 0;
+        font-size: 14px;
+        line-height: normal;
+        font-weight: normal;
+        font-family: oxygen; }
+      #box2 .slider .dat1 .nut {
+        padding: 10px 20px;
+        background: #0275d8;
+        border-radius: 5px;
+        border: solid 1px white; }
+        #box2 .slider .dat1 .nut a {
+          color: white;
+          font-size: 20px; }
+  #box2 .choose {
+    float: left;
+    padding: 5% 0; }
+    #box2 .choose .textcenter {
+      height: 10%;
+      text-align: center;
+      margin-bottom: 5%; }
+      #box2 .choose .textcenter h3 {
+        font-weight: 600;
+        text-transform: capitalize; }
+      #box2 .choose .textcenter .line {
+        border-bottom: solid 1px black;
+        margin: 0 auto; }
+        #box2 .choose .textcenter .line .linebox {
+          height: 5px;
+          background: #0275d8;
+          margin: 0 auto; }
+    #box2 .choose .texticon {
+      padding: 0 15%; }
+      #box2 .choose .texticon .page .pagebox {
+        height: 204px;
+        margin-bottom: 40px;
+        float: left; }
+        #box2 .choose .texticon .page .pagebox .iconpage {
+          height: 67px;
+          margin-bottom: 10%; }
+          #box2 .choose .texticon .page .pagebox .iconpage .map {
+            line-height: 67px;
+            width: 65px;
+            height: 67px;
+            background: #0275d8;
+            color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            text-align: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            align-icon: center;
+            margin-left: 40%;
+            border-radius: 50%; }
+        #box2 .choose .texticon .page .pagebox .textpage {
+          text-align: center; }
+          #box2 .choose .texticon .page .pagebox .textpage h4 {
+            font-weight: 600;
+            text-transform: capitalize; }
+          #box2 .choose .texticon .page .pagebox .textpage p {
+            font-size: 13px;
+            margin: 0 0 0 8px;
+            color: #929292;
+            font-weight: 600; }
 
 #box3 {
   width: 100%; }

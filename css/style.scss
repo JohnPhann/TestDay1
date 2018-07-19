@@ -1,3 +1,4 @@
+$colorblue: #0275d8;
 body{
 	padding: 0;
 	margin: 0;
@@ -7,7 +8,103 @@ body{
 	}
 #box2{
 	width: 100%;
+	.slider{
+				float: left;
+				.dat1{
+				// padding-bottom: 10%;
+				text-align: center;
+				padding-bottom: 10%;
+				h1{
+					font-size: 30px;
+				    font-weight: 600;
+				    padding: 5% 0;
+				    margin: 0 auto;
+				    text-transform: capitalize;
+				}
+				p{
+					margin: 0 0 2%;
+				    padding: 0;
+				    font-size: 14px;
+				    line-height: normal;
+				    font-weight: normal;
+				    font-family: oxygen;
+				}
+				.nut{
+					padding:10px 20px;
+					background: $colorblue;
+					border-radius: 5px;
+					border: solid 1px white;
+					a{
+						color: white;
+						font-size: 20px;
+						
+					}
+				}
+			}
 	}
+	.choose{
+		float: left;
+		padding: 5% 0;
+		.textcenter{
+			height: 10%;
+			text-align: center;
+			margin-bottom: 5%;
+			h3{
+				font-weight: 600;
+				text-transform: capitalize;
+			}
+			.line{
+					border-bottom: solid 1px black;
+					margin: 0 auto;
+					.linebox{
+						height: 5px;
+						background: $colorblue;
+						margin: 0 auto;
+					}
+			}
+		}
+		.texticon{
+			padding: 0 15%;
+			.page{
+				.pagebox{
+					height: 204px;
+					margin-bottom: 40px;
+					float: left;
+					.iconpage{
+						height: 67px;
+						margin-bottom: 10%;
+						.map{
+							line-height: 67px;
+							width: 65px;
+							height: 67px;
+							background: $colorblue;
+							color: white;
+							display: flex;
+							text-align: center;
+							justify-content: center;
+							align-icon: center;
+							margin-left:40%;
+							border-radius: 50%;
+						}
+					}
+					.textpage{
+						text-align: center;
+						h4{
+							font-weight: 600;
+							text-transform: capitalize;
+						}
+						p{
+							font-size: 13px;
+							margin: 0 0 0 8px;
+							color: #929292;
+							font-weight: 600;
+						}
+					}
+				}
+			}
+		}
+	}	
+}
 #box3{
 	width: 100%;
 	}
