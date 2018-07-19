@@ -1,26 +1,230 @@
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 #box1 {
-  width: 100%; }
+  width: 100%;
+}
 
 #box2 {
-  width: 100%; }
+  width: 100%;
+}
 
 #box3 {
-  width: 100%; }
+  width: 100%;
+  background: red;
+}
+#box3 #n1 {
+  background-image: url(https://www.vwthemes.net/vw-tours-theme/wp-content/themes/vw-tour-pro/images/topdestbackground.jpg);
+  height: 500px;
+}
+#box3 #n1 #n2 {
+  background: none;
+  height: 150px;
+  float: left;
+}
+#box3 #n1 #n2 h2 {
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  border-bottom: 1px solid #929292;
+  display: table;
+  margin: 0 auto;
+  font-size: 24px;
+  color: white;
+  bottom: auto;
+  padding-top: 3%;
+}
+#box3 #n1 #n2 h2 #ter {
+  height: 2px;
+  background-color: #47A0FF;
+  text-align: center;
+  content: "";
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+#box3 #n1 #n2 h4 {
+  padding: 1%;
+  color: white;
+  font-size: 16px;
+}
+#box3 #n1 #n3 {
+  background: none;
+  height: 300px;
+  float: left;
+}
+#box3 #n1 #n3 .destination {
+  background: none;
+  float: left;
+  width: 90%;
+}
+#box3 #n1 #n3 .destination .hinh {
+  height: 240px;
+  width: 100%;
+  float: left;
+  background: none;
+}
+#box3 #n1 #n3 .hiden {
+  position: absolute;
+  top: 0;
+  width: 93%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+}
+#box3 #n1 #n3 .hiden .hiden1 p {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+#box3 #n1 #n3 .hiden .hiden1 .t {
+  text-align: center;
+}
+#box3 #n1 #n3 .hiden .hiden1 .t a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10%;
+}
+#box3 #n1 #n3 .hiden .text-title {
+  width: 100%;
+}
+#box3 #n1 #n3 .hiden .container {
+  background: #417bb2;
+  width: 100%;
+}
+#box3 #n1 #n3 .hiden .container a {
+  margin-top: 95px;
+  color: white;
+  text-decoration: none;
+}
+#box3 #n1 #n3 .hiden .container p {
+  margin-top: 95px;
+}
+#box3 #n1 #n3 .hiden .container span {
+  margin-top: 95px;
+}
+#box3 #n1 #n3 .hiden:hover {
+  display: block;
+  background-color: rgba(51, 51, 51, 0.7);
+}
+#box3 #n5 {
+  background: #f1f1f1;
+  height: 500px;
+}
+#box3 #n5 #n6 {
+  height: 90px;
+}
+#box3 #n5 #n6 h2 {
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 1px solid #929292;
+  display: table;
+  margin: 0 auto;
+  font-size: 24px;
+  color: black;
+  padding-top: 1%;
+}
+#box3 #n5 #n6 h2 #ter1 {
+  height: 2px;
+  background-color: #47A0FF;
+  text-align: center;
+  content: "";
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+#box3 #n7 {
+  background: none;
+  float: left;
+  height: 400px;
+}
+#box3 #n7 #n8 {
+  height: 400px;
+  background: none;
+  float: left;
+}
+#box3 #n7 #n8 #n9 {
+  height: 400px;
+  background: none;
+  float: left;
+  position: relative;
+  overflow: hidden !important;
+  width: 100%;
+}
+#box3 #n7 #n8 #n9 #t6 {
+  width: 100%;
+}
+#box3 #n7 #n8 #n9 #t6 img {
+  width: 100%;
+  height: 200px;
+  float: left;
+}
+#box3 #n7 #n8 #n9 #n10 {
+  background: none;
+  height: 200px;
+  float: left;
+  width: 100%;
+  border: 1px solid #c5cedd;
+}
+#box3 #n7 #n8 #n9 #n10 p {
+  text-align: center;
+  padding-top: 10px;
+}
+#box3 #n7 #n8 #n9 #n10 .t2 {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#box3 #n7 #n8 #n9 #n10 .t2 .fas {
+  float: left;
+  color: yellow;
+}
+#box3 #n7 #n8 #n9 #n10 .t3 {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#box3 #n7 #n8 #n9 #n10 .t3 span {
+  color: blue;
+  font-size: 30px;
+  padding-top: 10%;
+}
+#box3 #n7 #n8 #n9 #n10 .sale {
+  width: 100%;
+  height: 60px;
+  background: #025aa5;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  left: -90px;
+}
+#box3 #n7 #n8 #n9 #n10 .sale p {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
 
 #box4 {
-  width: 100%; }
+  width: 100%;
+}
 
 #box5 {
-  width: 100%; }
+  width: 100%;
+}
 
 #box6 {
-  width: 100%; }
+  width: 100%;
+}
 
 #box7 {
-  width: 100%; }
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

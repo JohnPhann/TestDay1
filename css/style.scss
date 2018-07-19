@@ -4,13 +4,261 @@ body{
 }
 #box1{
 	width: 100%;
+
 	}
 #box2{
 	width: 100%;
 	}
 #box3{
 	width: 100%;
+	background:red;
+	#n1{
+		background-image: url(https://www.vwthemes.net/vw-tours-theme/wp-content/themes/vw-tour-pro/images/topdestbackground.jpg);
+		height:500px;
+		#n2{
+				background:none;
+				height:150px;
+				float:left;
+				h2{
+					text-align: center;
+   					 font-weight: 600;
+    				position: relative;
+    				border-bottom: 1px solid #929292;
+   					 display: table;
+   					 margin: 0 auto;
+   					 font-size: 24px;
+   					 color:white;
+   					    bottom: auto;
+   					    padding-top:3%;
+					
+					#ter{
+					
+    				height: 2px;
+    				
+    				background-color: #47A0FF;
+    				
+    				text-align: center;
+    				content: "";
+    				margin: 0 auto;
+    				right: 0;
+    				left: 0;
+    				
+					}
+				}
+				
+				h4{
+					padding:1%;
+					color:white;
+					font-size:16px;
+				}
+			}
+		#n3{
+				background:none;
+				height:300px;
+				float:left;
+			.destination{	
+				background:none;
+				float:left;
+				width:90%;
+				
+				
+
+				.hinh{
+					height: 240px;
+    				width:100%;
+    				float:left;
+    				
+    				background:none;
+    				
+						}
+					}
+				.hiden{
+					    position: absolute;
+   						 top: 0;
+    					width: 93%;
+    					height: 100%;
+    					overflow: hidden;
+    					display:block;
+    				.hiden1{
+    					p{
+    						color:white;
+    						text-align: center;
+    						margin-top:20px;	
+    					}
+    					.t{
+    						text-align: center;
+    					a{
+    						color:white;
+    						text-decoration: none;
+    						text-align: center;
+    						border:1px solid white;
+    						border-radius:10%;
+    						}
+    					}
+
+    				}
+    			.text-title{
+						width:100%;
+
+    			}		
+    				.container{
+    				background:#417bb2;
+    				width:100%;
+
+
+    						a {
+    							margin-top:95px;
+    							color: white;
+    							text-decoration:none;
+
+    						}
+    						p {
+    							margin-top:95px;
+    						}
+    						span{
+    							margin-top:95px;
+    						}
+    					}	
+				}
+				.hiden:hover{
+					display:block;
+					background-color: rgba(51, 51, 51, 0.7);
+				}
+
+				
+			}	
+		}
+		#n5{
+			background:#f1f1f1;
+		height:500px;
+			#n6{
+				height:90px;
+				h2{
+						text-align: center;
+   					 font-weight: 600;
+    				
+    				border-bottom: 1px solid #929292;
+   					 display: table;
+   					 margin: 0 auto;
+   					 font-size: 24px;
+   					
+   					 color:black;
+   					 padding-top:1%;
+   					 #ter1{
+					height: 2px;
+    				
+    				background-color: #47A0FF;
+    				
+    				text-align: center;
+    				content: "";
+    				margin: 0 auto;
+    				right: 0;
+    				left: 0;
+						}	
+
+					}
+				
+
+				}
+			}
+			#n7{
+				background:none;
+				float: left;
+				height:400px;
+				#n8{
+					height:400px;
+					background:none;
+					float: left;
+					#n9{
+						height:400px;
+						background:none;
+						float: left;
+					  position:relative;
+							 overflow: hidden !important;
+					   
+					    width:100%;
+
+						
+						#t6{
+
+							 width:100%;
+								img{
+								width:100%;
+								height:200px;
+								float: left;
+							
+
+								}
+						}	
+						#n10{
+							background:none;
+							height:200px;
+							float: left;
+							width:100%;
+							border: 1px solid #c5cedd;
+
+						
+							
+							p{
+								text-align: center;
+								padding-top:10px;
+							}
+							.t2{
+								width:20%;
+								display: block;
+								
+								margin:0 auto;
+								text-align: center;
+									.fas{
+												float: left;
+												color:yellow;
+
+								
+										}
+
+								}
+							.t3	{
+								width:30%;
+								display: block;
+								
+								margin:0 auto;
+								text-align: center;
+								span{
+									color:blue;
+									font-size:30px;
+									padding-top:10%;
+									}
+								}
+								 .sale{
+									width:100%;
+									height:60px;
+									background:#025aa5;
+									transform: rotate(-45deg);
+									position: absolute;
+									top:20px;
+									z-index:1;
+									left:-90px;
+
+									p{
+										text-align: center;
+										display: block;
+										margin:0 auto;
+									}
+
+
+									
+						 		}		
+						}
+							
+						}
+
+					}
+			
+				}
 	}
+
+	
+
 #box4{
 	width: 100%;
 	}
