@@ -13,7 +13,399 @@ body{
 	}
 #box4{
 	width: 100%;
+	.tour-works{
+		width: 100%;
+		height: 600px;
+		background: url(../img/bg-tour1.jpg);
+		background-size: cover;
+		float: left;
+		.col-left{
+			width: 100%;
+			height: 600px;
+			h3{
+				width: 100%;
+				margin-top: 5%;
+				color: #fff;
+				text-align: center;
+			}
+			.line-1{
+				width: 10%;
+				height: 2px;
+				background: #47A0FF;
+				margin: 0 auto;
+			}
+			.line-2{
+				width: 30%;
+				height: 2px;
+				background: gray;
+				margin: 0 auto;
+				margin-bottom: 5%;
+			}
+			.tour-type{
+				display: block;
+				width: 365px;
+				height: 365px;
+				margin: 0 auto;
+				background: url(../img/4.tour-type.png);
+				background-size: cover;
+				position: relative;
+				transition: ease-in-out 1s;
+				img{
+					position: relative;
+					left: 70px;
+					top: 160px;
+				}
+				&:hover{
+					transform: rotate(360deg);
+					transition: ease-in-out 1s;
+					img{
+						display: none;
+					}
+				}				
+				@media screen and (max-width: 768px) {
+					display: none;
+				}
+			}
+
+			.box-icon-text{
+				width: 40%;
+				height: 80px;
+				margin-top: 20px;
+				float: right;	
+						
+				span{
+					width: 30%;
+					height: 100%;
+					float: left;
+				}
+				i{
+					width: 60px;
+					height: 60px;
+					background: #01b7f2;
+					color: #fff;
+					border-radius: 50%;
+					line-height: 60px;
+					text-align: center;
+					font-size: 14px;
+
+				}	
+				h6{
+					color: #fff;
+					width: 70%;
+					height: 100%;
+					float: left;
+					padding-top: 5px;
+					padding-right: 10px;
+					color: #01b7f2;					
+					p{
+						font-size: 11px;
+						color: #fff;
+						padding-top: 15px;
+						float: left;
+					}
+				}
+				
+							
+			}
+
+			.bit-1{
+				position: absolute;
+				width: 40%;
+				bottom: 110px;
+				left: 40px;
+				@media (max-width: 1024px) {
+					width: 35%;	
+					left: 10px;
+					bottom: 130px;		
+				}	
+				h6{
+					text-align: right;
+				}
+				@media screen and (max-width: 768px) {
+					width: 100%;
+					height: 70px;
+					top: 100px;
+					left: 20px;
+					span{
+						float: right;
+						padding-left: 55px;
+					}
+					h6{
+						text-align: left;
+						padding-left: 20px;
+						float: right;					
+					}
+				}
+				@media screen and (max-width: 414px) {
+					width: 95%;
+					height: 70px;
+					top: 100px;
+					left: 0;
+					span{
+						float: right;
+						padding-left: 40px;
+					}
+					h6{
+						text-align: left;
+						padding-left: 20px;
+						float: right;					
+					}
+				}
+			}
+			.bit-2{
+				position: absolute;
+				bottom: 110px;
+				right: 40px;
+				@media (max-width: 1024px) {
+					width: 35%;	
+					right: 10px;
+					bottom: 130px;		
+				}	
+				h6{
+					text-align: left;
+					padding-left: 20px;
+				}
+				span{
+					text-align: right;
+				}
+				@media screen and (max-width: 768px) {
+					width: 100%;
+					height: 70px;
+					top: 190px;
+					left: 20px;
+
+				}
+				@media screen and (max-width: 414px) {
+					width: 95%;
+					height: 70px;
+					top: 190px;
+					left: 0;
+
+				}
+			}
+			.bit-3{
+				position: absolute;
+				top: 130px;
+				right: 40px;
+				@media (max-width: 1024px) {
+					width: 35%;	
+					right: 10px;
+					top: 110px;		
+				}	
+				h6{
+					text-align: left;
+					padding-left: 20px;
+				}
+				span{
+					text-align: right;
+				}
+				@media screen and (max-width: 768px) {
+					width: 100%;
+					height: 70px;
+					top: 270px;
+					left: 20px;
+				}
+				@media screen and (max-width: 414px) {
+					width: 95%;
+					height: 70px;
+					top: 270px;
+					left: 0;
+
+				}
+			}
+			.bit-4{
+				position: absolute;
+				top: 130px;
+				left: 40px;
+				@media (max-width: 1024px) {
+					width: 35%;	
+					left: 10px;
+					top: 110px;		
+				}	
+				h6{
+					text-align: right;
+				}
+				@media screen and (max-width: 768px) {
+					width: 100%;
+					height: 70px;
+					top: 360px;
+					left: 20px;
+					span{
+						float: right;
+						padding-left: 55px;
+					}
+					h6{
+						text-align: left;
+						padding-left: 20px;
+						float: right;					
+					}
+				}
+				@media screen and (max-width: 414px) {
+					width: 95%;
+					height: 70px;
+					top: 360px;
+					left: 0;
+					span{
+						float: right;
+						padding-left: 40px;
+					}
+					h6{
+						text-align: left;
+						padding-left: 20px;
+						float: right;					
+					}
+				}
+			}
+			
+		}
+		.col-right{
+			width: 100%;
+			height: 600px;
+			@media (max-width: 768px) {
+				background: rgba(0,0,0,.5);
+			}
+			.search-form{
+				width: 70%;
+				margin: 0 auto;
+				height: 500px;
+				border: solid #fff 2px;
+				border-radius: 20px;
+				margin-top: 50px;
+				h4{
+					width: 96%;
+					margin: 0 auto;
+					padding-top: 30px;
+					padding-bottom: 20px;
+					font-weight: 700	;
+					color: #fff;
+					text-align: center;
+					border-bottom: solid 1px gray;
+				}
+				h6{
+					width: 50%;
+					text-align: center;
+					margin: 0 auto;
+					color: #00b6f1;
+				}
+				#tourname{
+					width: 96%;
+					height: 50px;
+					background: #f2f2f2;
+					border: none;
+					border-radius: 7px;
+					margin-left: 2%;
+					margin-top: 10px;
+					padding-left: 20px;
+					color: #000;
+					position: relative;
+				}
+				#tourtype{
+					width: 96%;
+					height: 50px;
+					background: #f2f2f2;
+					border: none;
+					border-radius: 7px;
+					margin-left: 2%;
+					padding-left: 20px;
+					color: #000;
+					margin-top: 10px;
+				}
+				#tourdestmin{
+					width: 96%;
+					height: 50px;
+					background: #f2f2f2;
+					border: none;
+					border-radius: 7px;
+					margin-left: 2%;
+					padding-left: 20px;
+					color: #000;
+					margin-top: 10px;
+				}
+				button{
+					width: 96%;
+					height: 50px;
+					background: #00b6f1;
+					border: none;
+					border-radius: 7px;
+					margin-left: 2%;
+					padding-left: 20px;
+					color: #fff;
+					margin-top: 10px;
+					font-weight: bold;
+					transition: ease-in-out 1s;
+					&:hover{
+						background: #000;
+						border: 2px solid #fff;
+						color: #00b6f1;
+						transition: ease-in-out 1s;
+					}
+				}
+			}
+		}
 	}
+	
+	#customers-say{
+		float: left;
+		width: 100%;
+		height: 400px;
+		
+		@media (max-width: 768px) {
+			margin-top: 600px;
+			.line-2{
+				margin-bottom: 100px;
+			}
+		}
+		
+		.carousel-indicators{
+			li{
+				background: blue;
+				width: 10px;
+				height: 10px;
+			}
+		}
+		
+		h3{
+			width: 100%;
+			margin-top: 5%;
+			color: #000;
+			text-align: center;
+		}
+		.line-1{
+			width: 8%;
+			height: 2px;
+			background: #47A0FF;
+			margin: 0 auto;
+		}
+		.line-2{
+			width: 24%;
+			height: 2px;
+			background: gray;
+			margin: 0 auto;
+			margin-bottom: 5%;
+		}
+		.slide-customer-say{
+			margin-top: -30px;
+			width: 100%;
+			height: 300px;
+			@media (max-width: 414px) {
+				margin-top: 0px;
+			}
+			#carouselExampleIndicators{
+				width: 60%;
+				height: 300px;
+				margin: 0 auto;
+				text-align: center;
+				img{
+					width: 100px;
+					height: 100px;
+					margin-bottom: 20px;
+					border: solid 2px #47A0FF;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}//end box4
 #box5{
 	width: 100%;
 	}
@@ -21,5 +413,5 @@ body{
 	width: 100%;
 	}
 #box7{
-	width: 100%;
+	width: 100%;	
 	}	
