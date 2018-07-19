@@ -4,7 +4,72 @@ body{
 }
 #box1{
 	width: 100%;
+	height: auto;
+	background: #1c3248;
+	.hai1{
+		width: 100%;
+		height: auto;
+		float:left;
+		background: #1c3248;
+		.hai01{
+			margin-top:10px;
+			p{
+				float:left;
+				color: white;
+			}
+			.hai123{
+				margin-left: 10px;
+				float: left;
+			}
+		}
+		.haiv{
+			width: 100%;
+			height: 1px;
+			background: white;
+			text-align: center;
+			float: left;
+		}
+		.hai012{
+			float:left;
+			text-align: right;
+			a{
+				color: white;
+				margin-left: 10px;
+			}
+			.hai001{
+				border: solid 1px white; 
+				border-radius: 50%;
+				padding: 10px; 
+			}
+		}
+		.hai11{
+			margin-top: 5px;
+			.mn{
+				float: left;
+				ul{
+					margin-left: 80px;
+					list-style-type: none;
+					li{
+						float: left;
+						margin-left: 25px;
+						margin-top: 3px;
+						text-decoration: none;
+						a{
+							color: white;
+
+						}
+					}
+				}
+				button{
+					float: right;
+					background: white;
+					font-weight: bold;
+					border: solid 1px white;
+				}
+			}
+		}
 	}
+}
 #box2{
 	width: 100%;
 	}
@@ -412,6 +477,124 @@ body{
 #box6{
 	width: 100%;
 	}
-#box7{
-	width: 100%;	
-	}	
+#box7{	
+
+	width: 100%;
+	margin-top: 20px;
+	float: left;
+	.checked {
+    color: orange;
+	}
+	#hai2{
+	width: 100%;
+	background: #1c3248;
+	color: white;
+	  }
+	  .hai9{
+	  	width: 90%;
+	  	height: 1px;
+	  	background: white;
+	  	text-align: center;
+	  	margin: 0 auto;
+	  	margin-top: 30px;
+	  	position: relative;
+	  	i{
+	  		border: solid 1px white;
+	  		border-radius: 50%;
+	  		width: 40px;
+	  		height: 40px;
+	  		background: white;
+	  		line-height: 35px;
+	  		position: absolute;
+	  		top: -20px;
+	  	}
+	  }
+	  .hai10{
+	  	padding: 20px;
+	  	text-align:center;
+	  }
+	  .hai23{
+	  	ul{
+	  		list-style-type: none;
+	  		li{
+	  			margin-left: -40px;
+	  			p{
+	  				color: blue;
+	  			}
+	  			a{
+	  				color: white;
+	  				font-size: 12px;
+	  				text-decoration: none;
+	  			&:hover{
+	  				color:black;
+	  			}
+	  			}
+	  		img{
+	  			float: right;
+	  			margin-top: -25px;
+	  			width: 90px;
+				height: 60px;
+			&:hover{
+	  			transform: scale(2.5);
+	  		}
+	  		}
+	  		}
+	  	}
+	  }
+	  .hai22{
+	  	.hai51{
+	  		margin-left: 38px;
+	  	}
+	  	span{
+	  		font-size: 10px;
+	  	}
+	  	ul{
+	  		li{
+	  			list-style-type: none;
+	  			a{
+	  				text-decoration: none;
+	  				font-family: Open sans;
+	  				color: white;
+	  				font-size: 12px;
+	  			}
+	  		}
+	  	}
+	  	.hai21{
+	  		color: white;
+	  		font-family: Open sans;
+	  	}
+	  }
+	  .hai23{
+	  	.star-rating{
+	  		margin-top: -10px;
+	  	}
+	  	.hai41{
+	  		float: left;
+	  		font-size: 12px;
+			margin: 0;
+			margin-right: 10px;
+	  		text-decoration: line-through;
+	  	}
+	  	.hai43{
+	  		text-decoration: underline;
+	  		font-size: 12px;
+	  	}
+	  	.hai42{
+	  		font-size: 12px;
+	  	}
+	  }
+	  .hai33{
+	  	width: 100%;
+	  	.hai253{
+	  		img{
+	  			width: 85px;
+	  			height: 85px;
+	  			border: solid 2px white;
+	  			margin-bottom:20px;
+	  		&:hover{
+	  			transform: scale(1.5);
+	  		}
+	  		}
+	  	}
+	  }
+}	
