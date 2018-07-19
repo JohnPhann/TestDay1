@@ -16,7 +16,197 @@ body{
 	}
 #box5{
 	width: 100%;
+    
+    .phong{
+    	width: 100%;
+    	height: auto;
+    	background: #07253f;
+        @media (max-width: 768px){
+                   margin-left: 4%;
+                }
+
+        @media (max-width: 414px){
+                  margin-left: 0%;
+                }        
+
+    	.book{
+    		//background:green;
+    		height: 400px;
+
+            
+            
+    		h5{
+                margin-left: -13%;
+    			margin-top: 50px;
+    			text-align: center;
+    			color: #fff;
+                font-weight: bold;
+                font-size: 28px;
+    		}
+
+    		p{
+    			margin-left: 20%;
+    			line-height: 15px;
+    			font-size: 16px;
+    			font-weight: normal;
+                font-family: oxygen;
+                color: #fff;
+                @media (max-width: 414px) {
+                    margin-left: 0;
+                }
+    		}
+
+    		.button{
+                width: 100%;
+                padding-left: 20%;
+                margin-top: 30px;
+                color: #fff;
+                @media (max-width: 414px) {
+                    padding-left: 0;
+                }
+                span{
+                    font-size: 24px;
+                }
+                button{
+                    padding: 5px;
+                    color: #fff;
+                    border-color: #fff;
+                    background: none;
+                    border-radius: 5px;
+                    border-color: solid 1px #fff;
+                    margin-left: 20%;
+                    font-size: 18px;
+                    cursor: pointer;
+                   
+                    &:hover{
+                        transition: ease-in-out 1s;
+                        background: #dee2e8;
+                    }
+                }
+            }
+            
+    		
+
+    	}
+    	.pic{
+    		height: 400px;
+            @media (max-width: 768px) {
+               width: 100%;
+               margin-left: 10%;    
+            }
+            @media (max-width: 414px) {
+                display: none;
+            }
+    		img{
+    			width: 80%;
+    			height: 80%;
+    			margin-top: 35px;
+    		}
+    	}
+    }
+
+    .phong1{
+    	width: 100%;
+    	height: 500px;
+
+    	.header{
+            
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 60px;
+            @media (max-width: 768px){
+                    padding-left: 8%;
+                }
+
+            h2{
+            
+                text-align: center;
+                font-weight: 600;
+                border-bottom: 1px solid #929292;
+                display: table;
+                margin: 0 auto !important;
+                font-size: 24px;
+                padding-bottom: 10px;
+            }
+            h2::after{
+                position: absolute;
+                height: 3px;
+                width: 100px;
+                background-color: #47A0FF;
+                bottom: 0px;
+                text-align: center;
+                content: "";
+                margin: 0 auto;
+                right: 0;
+                left: 0;
+                top:95px;
+
+                
+            }
+        }
+
+        .phong2{
+            width: 100%;
+            height: 600px;
+            
+            margin-top: 40px;
+            
+            .p1, .p2, .p3, .p4{
+                width: 100%;
+                height: auto;
+                @media (max-width: 768px){
+                    padding-left: 11%;
+                }
+                
+                h4, a.a1{
+                    color: #3366CC  ;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    text-align: center;
+
+
+                }
+                 i.far{
+                    text-align: center;
+                    padding-left: 15%;
+                 }
+                p{
+                    
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    color: #7b7b7b;
+                    text-align: center;
+                }
+                a.bt1{
+                    display: block;
+                    width: 100px;
+                    height: 30px;
+                    border:1px solid #3333FF;
+                    border-radius: none;
+                    text-align: center;
+                    line-height: 25px;
+                    margin-left: 25%;
+                    text-decoration: none;
+                    color:#3333FF;
+                    font-weight: 500;
+
+                    &:hover{
+                        background: #3333FF;
+                        color: #fff;
+                    }
+                }
+
+                
+            }
+            
+
+    }
+
 	}
+        }
 #box6{
 	width: 100%;
 	}
